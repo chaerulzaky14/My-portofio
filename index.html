@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Chaerul Mas'ud Zaky — Web Developer</title>
+<meta name="description" content="Portofolio Chaerul Mas'ud Zaky, Web Developer berbasis PHP, Laravel & CodeIgniter.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- ================= NAV ================= -->
+<nav class="nav" id="nav">
+  <div class="nav-inner">
+    <a href="#top" class="nav-logo">chaerul<span class="dot">.</span>dev</a>
+    <ul class="nav-links">
+      <li><a href="#about">Tentang</a></li>
+      <li><a href="#experience">Pengalaman</a></li>
+      <li><a href="#projects">Proyek</a></li>
+      <li><a href="#skills">Skill</a></li>
+      <li><a href="#contact">Kontak</a></li>
+    </ul>
+    <a href="#contact" class="nav-cta">Hubungi Saya</a>
+    <button class="nav-toggle" id="navToggle" aria-label="Buka menu">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+</nav>
+
+<!-- ================= HERO (PARALLAX) ================= -->
+<header class="hero" id="top">
+  <div class="hero-bg" data-speed="0.25">
+    <div class="grid-lines"></div>
+  </div>
+  <div class="hero-bg-shape" data-speed="0.4"></div>
+
+  <div class="hero-inner">
+    <div class="hero-text">
+      <p class="eyebrow">$ whoami</p>
+      <h1 class="hero-title">
+        Chaerul Mas'ud Zaky<br>
+        <span class="accent">Web Developer.</span>
+      </h1>
+      <p class="hero-desc">
+        Mahasiswa S1 Informatika, Universitas Jenderal Achmad Yani &mdash; membangun sistem web
+        yang rapi dari database sampai antarmuka, pakai PHP, CodeIgniter 4, dan Laravel.
+      </p>
+      <div class="hero-actions">
+        <a href="#projects" class="btn btn-primary">
+          Lihat Proyek
+          <svg width="16" height="16" viewBox="0 0 16 16" fill="none"><path d="M3 8h10M9 4l4 4-4 4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+        </a>
+        <a href="#contact" class="btn btn-ghost">Hubungi Saya</a>
+      </div>
+      <div class="hero-meta">
+        <span>Cileunyi, Kab. Bandung</span>
+        <span class="sep">&middot;</span>
+        <span>Tersedia untuk magang</span>
+      </div>
+    </div>
+
+    <div class="hero-photo-wrap" data-speed="0.1">
+      <div class="hero-photo-shape"></div>
+      <img src="images/chaerul.jpg" alt="Foto Chaerul Mas'ud Zaky" class="hero-photo">
+      <span class="badge badge-1"><svg width="18" height="18" viewBox="0 0 24 24" fill="none"><path d="M4 4h6v6H4V4zm10 0h6v6h-6V4zM4 14h6v6H4v-6zm13-1v3m0 0v3m0-3h3m-3 0h-3" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></svg></span>
+      <span class="badge badge-2"><svg width="18" height="18" viewBox="0 0 24 24" fill="none"><path d="M8 3L3 8l5 5M16 3l5 5-5 5M14 3l-4 18" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></svg></span>
+      <span class="badge badge-3"><svg width="18" height="18" viewBox="0 0 24 24" fill="none"><rect x="3" y="4" width="18" height="14" rx="1.5" stroke="currentColor" stroke-width="1.6"/><path d="M3 9h18M8 4v5" stroke="currentColor" stroke-width="1.6"/></svg></span>
+    </div>
+  </div>
+
+  <div class="hero-ticker">
+    <div class="ticker-track">
+      <span>PHP</span><span>&#10022;</span><span>Laravel</span><span>&#10022;</span><span>CodeIgniter 4</span><span>&#10022;</span><span>MySQL</span><span>&#10022;</span><span>Git</span><span>&#10022;</span>
+      <span>PHP</span><span>&#10022;</span><span>Laravel</span><span>&#10022;</span><span>CodeIgniter 4</span><span>&#10022;</span><span>MySQL</span><span>&#10022;</span><span>Git</span><span>&#10022;</span>
+    </div>
+  </div>
+</header>
+
+<main>
+
+<!-- ================= ABOUT ================= -->
+<section class="section" id="about">
+  <div class="container">
+    <p class="section-label">$ cat about.md</p>
+    <h2 class="section-title">Tentang Saya</h2>
+    <p class="about-text">
+      Saya mahasiswa S1 Informatika semester 6 di Universitas Jenderal Achmad Yani dengan minat
+      pada Web Development. Punya pengalaman mengembangkan berbagai proyek akademik berbasis web
+      menggunakan PHP, CodeIgniter 4, Java, dan MySQL. Terbiasa bekerja secara individu maupun tim,
+      memahami Software Development Life Cycle (SDLC), serta menggunakan Git untuk manajemen versi.
+      Antusias untuk terus belajar dan berkontribusi melalui program magang di bidang pengembangan
+      perangkat lunak.
+    </p>
+  </div>
+</section>
+
+<!-- ================= EXPERIENCE ================= -->
+<section class="section section-alt" id="experience">
+  <div class="container">
+    <p class="section-label">$ ls education/</p>
+    <h2 class="section-title">Pendidikan</h2>
+
+    <div class="edu-card">
+      <div class="edu-year">2023 &mdash; Sekarang</div>
+      <div class="edu-body">
+        <h3>S1 Informatika</h3>
+        <p>Universitas Jenderal Achmad Yani (UNJANI)</p>
+        <span class="edu-tag">Semester 6</span>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ================= PROJECTS ================= -->
+<section class="section" id="projects">
+  <div class="container">
+    <p class="section-label">$ ls projects/</p>
+    <h2 class="section-title">Proyek Terpilih</h2>
+    <p class="section-sub">Proyek akademik yang saya bangun dari perancangan database sampai antarmuka pengguna.</p>
+
+    <div class="project-grid">
+
+      <article class="project-card">
+        <div class="project-visual visual-1">
+          <svg width="56" height="56" viewBox="0 0 24 24" fill="none"><rect x="3" y="3" width="7" height="7" rx="1" stroke="currentColor" stroke-width="1.5"/><rect x="14" y="3" width="7" height="7" rx="1" stroke="currentColor" stroke-width="1.5"/><rect x="3" y="14" width="7" height="7" rx="1" stroke="currentColor" stroke-width="1.5"/><path d="M14 14h3v3h-3v-3zm4 0h3v3h-3v-3zm-4 4h3v3h-3v-3zm4 0h3v3h-3v-3z" fill="currentColor"/></svg>
+        </div>
+        <div class="project-body">
+          <span class="project-tag">Web Developer</span>
+          <h3>Sistem Pemesanan Menu Berbasis Web</h3>
+          <p>Sistem pemesanan menu digital berbasis QR Code, lengkap dengan fitur pemesanan, keranjang, checkout, dan status pesanan real-time.</p>
+          <ul class="project-stack">
+            <li>PHP</li><li>CodeIgniter 4</li><li>MySQL</li>
+          </ul>
+        </div>
+      </article>
+
+      <article class="project-card">
+        <div class="project-visual visual-2">
+          <svg width="56" height="56" viewBox="0 0 24 24" fill="none"><path d="M3 3v18h18" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/><path d="M7 15l3-4 3 3 5-7" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+        </div>
+        <div class="project-body">
+          <span class="project-tag">Web Developer</span>
+          <h3>Sistem Manajemen Keuangan Rumah Makan</h3>
+          <p>Aplikasi manajemen keuangan untuk rumah makan dengan fitur pencatatan transaksi, laporan keuangan, dan dashboard ringkasan.</p>
+          <ul class="project-stack">
+            <li>CodeIgniter 4</li><li>MySQL</li>
+          </ul>
+        </div>
+      </article>
+
+      <article class="project-card">
+        <div class="project-visual visual-3">
+          <svg width="56" height="56" viewBox="0 0 24 24" fill="none"><path d="M3 8l9-5 9 5-9 5-9-5z" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round"/><path d="M3 8v8l9 5 9-5V8M12 13v8" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round"/></svg>
+        </div>
+        <div class="project-body">
+          <span class="project-tag">Web Developer</span>
+          <h3>Sistem Inventaris Kantor</h3>
+          <p>Aplikasi inventaris kantor berbasis web dengan fitur autentikasi pengguna, CRUD inventaris, dan laporan stok barang.</p>
+          <ul class="project-stack">
+            <li>PHP</li><li>CodeIgniter 4</li><li>MySQL</li>
+          </ul>
+        </div>
+      </article>
+
+    </div>
+  </div>
+</section>
+
+<!-- ================= SKILLS ================= -->
+<section class="section section-alt" id="skills">
+  <div class="container">
+    <p class="section-label">$ cat skills.json</p>
+    <h2 class="section-title">Keahlian Teknis</h2>
+
+    <div class="skills-grid">
+      <div class="skill-col">
+        <h3>Bahasa Pemrograman</h3>
+        <ul><li>PHP</li><li>Java</li><li>JavaScript</li><li>SQL</li></ul>
+      </div>
+      <div class="skill-col">
+        <h3>Framework &amp; Library</h3>
+        <ul><li>CodeIgniter</li><li>Laravel</li><li>Bootstrap</li></ul>
+      </div>
+      <div class="skill-col">
+        <h3>Tools</h3>
+        <ul><li>Visual Studio Code</li><li>GitHub</li><li>Laragon</li><li>Postman</li><li>Figma</li></ul>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ================= CTA ================= -->
+<section class="cta-section">
+  <div class="container">
+    <h2 class="cta-title">Mari bangun sistem web yang solid,<br>dari database sampai antarmuka.</h2>
+    <a href="#contact" class="btn btn-primary btn-lg">
+      Hubungi Saya
+      <svg width="18" height="18" viewBox="0 0 16 16" fill="none"><path d="M3 8h10M9 4l4 4-4 4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+    </a>
+  </div>
+</section>
+
+</main>
+
+<!-- ================= FOOTER / CONTACT ================= -->
+<footer class="footer" id="contact">
+  <div class="container footer-inner">
+    <div class="footer-main">
+      <h2 class="footer-title">Hubungi Saya</h2>
+      <p>Terbuka untuk kesempatan magang di bidang pengembangan perangkat lunak.</p>
+      <a href="mailto:chaerulzaky14@gmail.com" class="footer-email">chaerulzaky14@gmail.com</a>
+    </div>
+    <div class="footer-details">
+      <div class="footer-item">
+        <span class="footer-label">Telepon</span>
+        <a href="tel:+6282118807843">+62 821-1880-7843</a>
+      </div>
+      <div class="footer-item">
+        <span class="footer-label">Lokasi</span>
+        <span>Cileunyi, Kab. Bandung</span>
+      </div>
+      <div class="footer-item">
+        <span class="footer-label">Sosial</span>
+        <div class="footer-social">
+          <a href="#" aria-label="GitHub">GitHub</a>
+          <a href="#" aria-label="LinkedIn">LinkedIn</a>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="footer-bottom container">
+    <span>&copy; 2026 Chaerul Mas'ud Zaky. Dibuat dengan HTML, CSS &amp; JS murni.</span>
+  </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
